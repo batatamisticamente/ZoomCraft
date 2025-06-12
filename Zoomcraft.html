@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicial - ZoomCraft</title>
+    <link rel="icon" type="image/x-icon" href="ZC Blue.png">
+    <style>
+        #MenuIframe {
+            width: 100%;
+            height: 11vh;
+        }
+        .MenuTemplate {
+            width: 101%;
+            height: 11vh;
+            border-bottom: solid black 0.1vh;
+            background-color: white;
+            position: fixed;
+            z-index: 1000;
+            top: -1vh;
+            right: -1vh;
+        }
+        #backgroundsquare {
+            position: absolute;
+            background-color: #ffffff8f;
+            width: 90%;
+            height: 150vh;
+            margin-left: 10vh;
+            margin-right: 10vh;
+            margin-bottom: 10vh;
+        }
+
+        .titleS {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 100;
+            color: white;
+            text-align: center;
+            font-size: 10vh;
+            height: 7vh;
+        }
+
+        #TitleContainer {
+            position: absolute;
+            display: inline-block;
+            top: 20vh;
+            right: 10vh;
+        }
+
+        #discordbutton {
+            width: 30vh;
+            height: 10vh;
+            border-radius: 10vh;
+            background-color: rgb(86, 128, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            cursor: pointer;
+            transition: 200ms;
+            position: relative;
+            top: 65vh;
+            right: -77.5vh;
+        }
+
+        #discordh1 {
+            font-size: 3.5vh;
+            text-align: center;
+            position: relative;
+            top: 2.5vh;
+            cursor: pointer;
+            transition: 200ms;
+            color: rgb(226, 226, 226);
+        }
+
+        #discordbutton:hover {
+            background-color: rgb(70, 63, 255);
+            width: 35vh;
+            right: -75vh;
+        }
+
+        #discordbutton:hover #discordh1 {
+            color: rgb(255, 255, 255);
+        }
+
+        .cardqualities {
+            width: 30vh;
+            height: 45vh;
+            background-color: rgba(255, 255, 255, 0.429);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            position: relative;
+            top: 85vh;
+            right: -7.5vh;
+            display: inline-block;
+            border: solid rgba(0, 0, 0, 0.453) 0.5vh;
+            margin-left: 10vh;
+        }
+
+        .cardImg {
+            width: 25vh;
+            height: 20vh;
+            margin-left: 2.5vh;
+            margin-top: 2.5vh;
+        }
+
+        .cardh1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            font-size: 3vh;
+            font-weight: 100;
+            color: rgb(0, 0, 0);
+        }
+
+        #BackgroundRain {
+            width: 210vh;
+            position: fixed;
+            right: 0vh;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+<body style="background-image: url('pmdnar0m.png');">
+    <img id="BackgroundRain" src="clipart-rain-gif-transparent-2286111491.gif"></img>
+        <div class="MenuTemplate">
+        <iframe id="MenuIframe" src="Menu.html" frameBorder="0"></iframe>
+      </div>
+      <div id="backgroundsquare">
+        <div id="TitleContainer">
+        <h1 class="titleS">⚡ZoomCraft⚡</h1>
+        <h1 class="titleS">Server de Minecraft Survival</h1>
+        <h1 style="font-size: 5vh;" class="titleS">(Bedrock🐛 e Java☕)</h1>
+        </div>
+        <div id="discordbutton"><h1 id="discordh1">Discord</h1></div>
+        <div class="cardqualities"><img class="cardImg" src="nmjs7g0e.png"></img><h1 class="cardh1">Economia baseada em items</h1></div>
+        <div class="cardqualities"><img class="cardImg" src="tiyssdrk.png"></img><h1 class="cardh1">Servidor 100% vanilla survival</h1></div>
+        <div class="cardqualities"><img class="cardImg" src="bzt89go7.png"></img><h1 class="cardh1">Cross play, jogue em qualquer dispositivo</h1></div>
+        <div class="cardqualities"><img class="cardImg" src="i2fl7w70.png"></img><h1 class="cardh1">Grupos livres para fazer bases e builds no server</h1></div>
+      </div>
+</body>
+</html>
